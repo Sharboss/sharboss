@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&family=Space+Mono:wght@400;700&display=swap);
 
 body {
-    background: url('bg.png');
-    background-color: #cd8f4a;
-    background-repeat: repeat;
+    background: url('bg1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
         animation: gradient 15s ease infinite;
         height: 100vh;
         
@@ -21,7 +21,7 @@ body {
         background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50%;
+        background-position: 50% 0%;
     }
     100% {
         background-position: 0% 50%;
